@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="../dist/semantic.min.css" >
+<script src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
+
+<script src="../dist/semantic.min.js"></script>
+<script src="../myscript.js"></script>
+<style>
+	.pusher {
+		padding-top: 50px;
+	}
+</style>
+<title>MyDiary</title>
+</head>
+
+<body>
+<!--       <div class="ui top attached tabular menu">
+        <a class="active red item" data-tab="first">First</a>
+        <a class="item blue" data-tab="second">Second</a>
+        <a class="item green" data-tab="third">Third</a>
+      </div>
+      <div class="ui bottom attached active tab segment" data-tab="first">
+        First
+      </div>
+      <div class="ui bottom attached tab segment" data-tab="second">
+        Second
+      </div>
+      <div class="ui bottom attached tab segment" data-tab="third">
+        Third
+      </div> -->
+
+      <!--ui sidebar menu是sidebar必备  left方向 inverted 黑白色 vertical方向-->
+      <div class="ui sidebar left inverted vertical menu">
+      	 <a class="item">MMM</a>
+      	 <a class="item">MMM</a>
+      	 <a class="item">MMM</a>
+      	 <a class="item">MMM</a>
+      </div>
+      <!--fixed保证menu不和sidebar重合-->
+      <div class="ui basic top fixed  menu">
+      	 <div class="item" id="toggle">
+      	 	<i class="home icon ">
+      	 		Menu
+      	 	</i>
+      	 </div>
+      	 <div class="ui top attached tabular menu">
+	        <a class="active red item" data-tab="first">First</a>
+	        <a class="item blue" data-tab="second">Second</a>
+	        <a class="item green" data-tab="third">Third</a>
+      	</div>
+      </div>
+      
+      <div class="pusher">
+      <!--container表示的是居中分布-->
+      	 <div class="ui container">
+      	 	      <div class="ui bottom attached active tab segment" data-tab="first">
+			        First
+			      </div>
+			      <div class="ui bottom attached tab segment" data-tab="second">
+			        Second
+			      </div>
+		      <div class="ui bottom attached tab segment" data-tab="third">
+		        Third
+		      </div> 
+      	 </div>
+      </div>
+
+</body>
+</html>
